@@ -13,11 +13,11 @@ resources:
       tasks:
         - task_key: heatmap
           spark_python_task:
-            python_file: /ide-brickfood/heatmap.py
+            python_file: ../src/heatmap.py
           environment_key: Default
         - task_key: notebook_task
           notebook_task:
-            notebook_path: /ide-brickfood/cow-bff.ipynb
+            notebook_path: ../src/cow-bff.ipynb
       queue:
         enabled: true
       environments:
